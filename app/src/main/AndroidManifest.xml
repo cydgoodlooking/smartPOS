@@ -2,6 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.yudongcao.smartposdemo">
 
+    <uses-permission android:name="android.permission.CLOUDPOS_SAFE_MODULE" />
+    <uses-permission android:name="android.permission.CLOUDPOS_MSR" />
+    <uses-permission android:name="android.permission.CLOUDPOS_SMARTCARD" />
+    <uses-permission android:name="android.permission.CLOUDPOS_CONTACTLESS_CARD" />
+    <uses-permission android:name="android.permission.CLOUDPOS_PRINTER" />
+    <uses-permission android:name="android.permission.CLOUDPOS_PINPAD" />
+    <uses-permission android:name="android.permission.CLOUDPOS_PIN_GET_PIN_BLOCK" />
+    <uses-permission android:name="android.permission.CLOUDPOS_PIN_MAC" />
+    <uses-permission android:name="android.permission.CLOUDPOS_PIN_ENCRYPT_DATA" />
+    <uses-permission android:name="android.permission.CLOUDPOS_PIN_UPDATE_MASTER_KEY" />
+    <uses-permission android:name="android.permission.CLOUDPOS_PIN_UPDATE_USER_KEY" />
+    <uses-permission android:name="android.permission.CLOUDPOS_EMV" />
+    <uses-permission android:name="android.permission.CLOUDPOS_LED" />
 
     <application
         android:allowBackup="true"

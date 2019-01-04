@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
 
         // async function
         smartPosApi = ITYSmartPosApi.get(this);
-        smartPosApi.initPrinter();
-        smartPosApi.setReadCardConfig(true, true, true);
+       smartPosApi.initPrinter();
+       smartPosApi.setReadCardConfig(true, true, true);
     }
 
 
@@ -127,8 +127,5 @@ public class MainActivity extends AppCompatActivity {
                 tv1.setText(cardInfo.getCardNo());
             }
         });
-
     }
-
-
 }
